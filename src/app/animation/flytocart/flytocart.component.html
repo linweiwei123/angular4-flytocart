@@ -1,0 +1,10 @@
+<div class="page-container">
+  <div class="row">
+    <div class="col-xs-6 col-md-3" *ngFor="let img of imgs">
+      <a  class="thumbnail" [ngClass]="{'added': img.state=='added'}">
+        <img alt="100%x180" id="img_{{img.id}}" (click)="addToCart(img)" style="width: 100%; display: block;" src="../../../assets/img/n.jpg" data-holder-rendered="true">
+      </a>
+    </div>
+  </div>
+
+</div>

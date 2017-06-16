@@ -1,0 +1,13 @@
+.col-xs-6, .col-md-3{
+  position: inherit!important;
+}
+.thumbnail img {
+  /*transition: all 1s linear;*/
+  /*-webkit-transition: all 1s linear;*/
+}
+a.thumbnail.added:before{
+  content: "已添加";
+  background-color:rgba(0,0,0,0.3);
+  color: #fff;
+  position: absolute;
+}
